@@ -1,4 +1,4 @@
- var socket = io.connect('http://http://http://app-kitchatapp.7e14.starter-us-west-2.openshiftapps:7777/');
+ var socket = io.connect('http://app-kitchatapp.7e14.starter-us-west-2.openshiftapps.com');
   socket.on('connect', function(data) {
       socket.emit('join', 'Hello server from client');
   });
